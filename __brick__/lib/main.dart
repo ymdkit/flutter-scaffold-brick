@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:scaffold/route/app_router.dart';
+import 'package:{{project_name}}/route/app_router.dart';
 
 void main() {
   runApp(const MyApp());

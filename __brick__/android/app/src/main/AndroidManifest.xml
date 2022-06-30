@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.scaffold">
+    package="com.example.{{project_name}}">
    <application
-        android:label="scaffold"
+        android:label="{{project_name}}"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

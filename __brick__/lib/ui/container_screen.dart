@@ -1,13 +1,13 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:scaffold/route/app_router.dart';
+import 'package:{{project_name}}/route/app_router.dart';
 
 class ContainerScreen extends HookConsumerWidget {
   const ContainerScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return AutoTabsScaffold(
+    return AutoTabs{{project_name}}(
       routes: const [
         FeatureAContainer(),
         FeatureBContainer(),

@@ -1,8 +1,8 @@
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:scaffold/ui/page/feature_a/feature_a_page.dart';
-import 'package:scaffold/ui/page/feature_b/feature_b_page.dart';
+import 'package:{{project_name}}/ui/page/feature_a/feature_a_page.dart';
+import 'package:{{project_name}}/ui/page/feature_b/feature_b_page.dart';
 
 import '../ui/container_screen.dart';
 
