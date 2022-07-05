@@ -7,7 +7,7 @@ class ContainerScreen extends HookConsumerWidget {
   const ContainerScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return AutoTabs{{project_name}}(
+    return AutoTabsScaffold(
       routes: const [
         FeatureAContainer(),
         FeatureBContainer(),
